@@ -1,7 +1,25 @@
 /* pages/index/index.wxss */
-.h-full{
+.h-full {
   height: 100%;
 }
-.w-full{
+
+.w-full {
   width: 100%;
+}
+
+.grid {
+  padding: 16rpx;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(3, 1fr);
+  border: 1rpx solid cyan;
+  background: #fff;
+}
+
+.tag {
+  padding: 8rpx 16rpx;
+  font-size: 20rpx;
+  line-height: 26rpx;
+  background-color: #999;
+  color: cyan;
 }

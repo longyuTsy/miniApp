@@ -1,5 +1,21 @@
-<view class="container">
- <!-- <view>{{msg}}</view>
- <view wx:for="{{msg}}">{{item}}</view> -->
- <view hidden="{{flag ==='tsy' ? true:false }}">Hidden </view>
+<!-- <view>{{msg}}</view> -->
+<!-- <view wx:for="{{[1,2,3]}} " wx:for-index="idx" wx:for-item="itemName" wx:key="idx">{{itemName}}</view> -->
+<view wx:if="{{ condition }}">yes</view>
+<view wx:else="">no</view>
+<view hidden="{{ flag === 'tsy' ? true : false }}">Hidden </view>
+<block wx:if="{{ condition }}">
+  <view wx:for="{{ arr }}" wx:key="index">{{ item }}</view>
+</block>
+<button type="err" bindtap="handClick">click</button>
+<input type="text" />
+<view class="w-full grid">
+  <text style="color: black">人名</text>
+  <text style="color: cyan">10k-15k</text>
+  <view style="display: flex; align-items: center; gap: 20rpx">
+    <text class="tag" wx:for="{{ 4 }}" wx:key="index">{{ item }}</text>
+  </view>
+  <view style="grid-row: span 2">
+    <button style="width: 200rpx" type="primary">投递</button>
+  </view>
+  <text> 只是一句话 </text>
 </view>

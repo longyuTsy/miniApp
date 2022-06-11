@@ -6,6 +6,7 @@ Page({
    */
   data: {
     msg:'这是一条消息',
+    condition:false,
     arr:[1,2,3,4,5],
     obj:{
       one:'111',
@@ -21,6 +22,10 @@ Page({
    */
   onLoad(options) {
 
+  },
+  handClick(event,ownerInstance){
+    console.log('event',event)
+    console.log('ownerInstance',ownerInstance)
   },
 
   /**

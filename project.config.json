@@ -47,9 +47,11 @@
   "libVersion": "2.19.4",
   "appid": "wx246304f534b112e7",
   "projectname": "miniprogram-92",
-  "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {}
 }

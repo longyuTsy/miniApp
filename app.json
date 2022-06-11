@@ -10,7 +10,8 @@
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#14c145",
     "navigationBarTitleText": "啦啦啦",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "list": [{
